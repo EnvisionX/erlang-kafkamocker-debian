@@ -1,0 +1,13 @@
+Source: erlang-kafkamocker
+Section: devel
+Priority: extra
+Maintainer: Aleksey Morarash <aleksey.morarash@envisionx.co>
+Build-Depends: debhelper (>= 8.0.0), rebar, erlang-dev, erlang-eunit
+Standards-Version: 3.9.3
+Homepage: https://github.com/helpshift/kafkamocker/tree/feature/network-partitions
+
+Package: erlang-kafkamocker
+Architecture: all
+Depends: erlang-base, erlang-ranch
+Description: An embeddable Erlang/OTP module that simulates a Apache Kafka broker.
+ An embeddable Erlang/OTP module that simulates a Apache Kafka broker.

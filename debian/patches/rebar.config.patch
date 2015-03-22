@@ -1,0 +1,10 @@
+--- a/rebar.config
++++ b/rebar.config
+@@ -2,7 +2,6 @@
+             {i, ["include"]}]}.
+ {ct_dir,"test"}.
+ {deps,[
+- {ranch,".*",{git,"https://github.com/extend/ranch.git"}}
+ ]}.
+ {xref_checks, [undefined_function_calls,
+                undefined_functions,
